@@ -4,7 +4,7 @@
 </div>
 
 <p align="center">
-          🤗 <a href="https://huggingface.co/lucasjin/Namo-500M-V1">Namo-500M-V1</a>&nbsp&nbsp | &nbsp&nbsp🐝 <a href="https://github.com/lucasjinreal/Namo-R1/issues/new">Community</a>
+          🤗 <a href="https://huggingface.co/lucasjin/Namo-500M-V1">Namo-500M-V1</a>&nbsp&nbsp | &nbsp&nbsp🐝 <a href="https://discord.gg/5ftPBVspXj">Community</a>
 </p
 
 > **You**: *I don't have GPUs to run VLMs.*  **Namo R1:** Hold my beer.... let's do this on CPU.
@@ -28,9 +28,13 @@ Key innovations include:
 <video src='https://github.com/user-attachments/assets/eb353124-509e-4b87-8a0d-b0b37b5efba2
 '></video>
 
+Please join us in discord! https://discord.gg/5ftPBVspXj . For Chinese users, we will publish WeChat group in discord as well.
+
+
 ## Updates
 
-- **`2025.02.21`**: more to come...!
+- **`2025.02.22`**: more to come...!
+- **`2025.02.22`**: 🔥🔥 SigLIP2 added! You can now training with SigLIP2 as vision encoder, Join us in [discord](https://discord.gg/5ftPBVspXj);
 - **`2025.02.21`**: 🔥🔥 The first version is ready to open, fire the MLLM power able to runs on CPU!
 - **`2025.02.17`**: Namo R1 start training.
 
