@@ -71,10 +71,12 @@ A simple demo would be:
 from namo.api.vl import VLInfer
 
 # model will download automatically
-model = VLInfer(model_type='namo')
+model = VLInfer(
+    model_type="namo", device="cuda:0" if torch.cuda.is_available() else "cpu"
+)
 
 # default will have streaming
-model.generate('what is this?', 'images/cats.jpg', stream=True)
+model.generate(images='images/cats.jpg', prompt='what is this?')
 ```
 
 That's all!
