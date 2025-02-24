@@ -77,7 +77,7 @@ model = VLInfer(
 )
 
 # default will have streaming
-# this method accepts a single path or PIL image, or an array of same.
+# this method accepts a single path, url, or PIL image, or an array of same.
 model.generate(images='images/cats.jpg', prompt='what is this?')
 ```
 
