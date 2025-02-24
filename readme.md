@@ -68,6 +68,7 @@ pip install -U namo
 A simple demo would be:
 
 ```python
+import torch
 from namo.api.vl import VLInfer
 
 # model will download automatically
@@ -76,6 +77,7 @@ model = VLInfer(
 )
 
 # default will have streaming
+# this method accepts a single path or PIL image, or an array of same.
 model.generate(images='images/cats.jpg', prompt='what is this?')
 ```
 
