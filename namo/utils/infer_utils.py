@@ -3,6 +3,7 @@ from PIL import Image
 import base64
 from threading import Thread
 import io
+import os
 from transformers import TextStreamer
 
 try:
@@ -12,6 +13,8 @@ except ImportError:
 
 
 def load_image(image_file):
+    if isinstance(image_file, Image.Image):
+        return image_file
     if image_file.startswith("http") or image_file.startswith("https"):
         response = requests.get(image_file)
         image = Image.open(io.BytesIO(response.content)).convert("RGB")
@@ -21,7 +24,9 @@ def load_image(image_file):
 
 
 def load_multi_images_maybe(image_files, splitter=" "):
-    if isinstance(image_files, str):
+    if isinstance(image_files, Image.Image):
+        return [image_files]
+    if isinstance(image_files, str) and not os.path.exists(image_files):
         images = image_files.split(splitter)
     else:
         images = image_files
