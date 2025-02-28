@@ -83,7 +83,7 @@ model.generate(images='images/cats.jpg', prompt='what is this?')
 
 That's all!
 
-For cli multi-turn chat in terminal you can run `python demo.py`. (Namo cli directly in your terminal would be avaiable later.)
+For cli multi-turn chat in terminal you can run `python demo.py`. (Namo cli directly in your terminal would be available later.)
 
 #### OpenAI server & Run in OpenWebUI
 
