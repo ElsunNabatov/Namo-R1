@@ -78,7 +78,7 @@ model = VLInfer(
 
 # default will have streaming
 # this method accepts a single path, url, or PIL image, or an array of same.
-model.generate(images='images/cats.jpg', prompt='what is this?')
+model.generate(images=['images/cats.jpg'], prompt='what is this?')
 ```
 
 That's all!
