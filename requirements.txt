@@ -1,6 +1,6 @@
 streamlit>=1.36
 namo
-transformers>=4.48.0
+transformers
 accelerate>=0.34.0
 safetensors>=0.4.5
 pillow>=10.0.0
