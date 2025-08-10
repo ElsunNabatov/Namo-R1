@@ -1,8 +1,8 @@
 streamlit>=1.36
-namo
-transformers
+transformers>=4.48.0
 accelerate>=0.34.0
 safetensors>=0.4.5
 pillow>=10.0.0
-tokenizers>=0.19.0
+tokenizers>=0.20.0
 sentencepiece>=0.2.0
+
