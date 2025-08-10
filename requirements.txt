@@ -6,3 +6,6 @@ pillow>=10.0.0
 tokenizers>=0.20.0
 sentencepiece>=0.2.0
 
+# add these pins:
+datasets>=2.19.0
+pyarrow<21  # e.g. 20.0.0
